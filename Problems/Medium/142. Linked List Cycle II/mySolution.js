@@ -1,3 +1,4 @@
+//Beats 5.23%
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
