@@ -1,4 +1,5 @@
 /**
+ * Beats 37.83%
  * @param {number[][]} intervals
  * @param {number[]} newInterval
  * @return {number[][]}
