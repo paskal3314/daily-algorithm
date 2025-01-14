@@ -9,7 +9,7 @@ var rotate = function (nums, k) {
   // console.log
   const first = nums.slice(n - num);
   const last = nums.slice(0, n - num);
-  console.log({ first, last });
+  //   console.log({ first, last });
   for (let i = 0; i < first.length; i++) {
     nums[i] = first[i];
   }
