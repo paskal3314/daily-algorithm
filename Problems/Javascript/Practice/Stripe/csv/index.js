@@ -10,10 +10,6 @@ function interpreteCSV(inputCSV) {
       const key = columns[i];
       const value = infoArr[i];
       json[key] = value;
-      //   console.log("[T]", {
-      //     key,
-      //     value,
-      //   });
     }
     result.push(json);
   });
@@ -25,6 +21,6 @@ booker12;9012;Rachel;Booker
 grey07;2070;Laura;Grey
 johnson81;4081;Craig;Johnson
 jenkins46;9346;Mary;Jenkins
-smith79;5079;Jamie;Smith;tt`;
+smith79;5079;Jamie;Smith`;
 
 interpreteCSV(csv);
