@@ -17,3 +17,5 @@ var carPooling = function (trips, capacity) {
   // console.log("[T]", hash)
   return true;
 };
+
+carPooling([], 1);
